@@ -61,13 +61,7 @@ footer {
     padding: 1rem;
 }
 #wrapper {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #FFFFFF;
-    min-width: 960px;
-    max-width: 2048px;
-    box-shadow: 0 3px 3px rgba(66,66,66,0.3);
+display:grid;
 }
 #homehero {
     height: 300px;
