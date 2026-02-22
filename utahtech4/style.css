@@ -13,7 +13,7 @@ header {
     background-color: #003058;
     color: #FFFFFF;
     font-family: Georgia, sans-serif;
-    grid-row 1 / 2;
+    grid-row: 1 / 2;
     grid-column: 2 / -2;
 } 
 header a {
@@ -39,7 +39,7 @@ nav {
     margin: 0;
     position:sticky;
     grid-row: 2 / 3;
-    grid column: 2 / -2;
+    grid-column: 2 / -2;
 }
  nav a {
     text-decoration: none;
@@ -71,7 +71,7 @@ footer {
     text-align: center;
     padding: 1rem;
     grid-row: 5 / 6;
-    grid column: 2 / -2;
+    grid-column: 2 / -2;
 }
 #wrapper {
 display:grid;
@@ -84,7 +84,7 @@ grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-row 3 / 4;
+    grid-row: 3 / 4;
     grid-column: 2 / -2
 }
 #studenthero{
@@ -93,7 +93,7 @@ grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-row 3 / 4;
+    grid-row: 3 / 4;
     grid-column: 2 / -2
 }
 #facultyhero{
@@ -102,7 +102,7 @@ grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-row 3 / 4;
+    grid-row: 3 / 4;
     grid-column: 2 / -2
 }
 main img {
