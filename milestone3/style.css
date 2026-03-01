@@ -24,12 +24,6 @@ main {
     height: 300px;
 }
 
-aside {
-    background-color: rgba(255, 255, 0, 0.3);
-    grid-column: 6 / 8;
-    height: 300px;
-}
-
 footer {
     background-color: rgba(255, 0, 255, 0.3);
     grid-column: 2 / 8;
