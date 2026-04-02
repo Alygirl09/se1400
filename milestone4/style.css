@@ -8,8 +8,8 @@
 
 header {
    background-image: url(images/redrock.JPG);
-   background-position:bottom;
-   
+   background-position:50% 70%;
+   background-size: cover;
    background-repeat: no-repeat;
     grid-column: 2 / 8;
     height: 200px;
@@ -18,7 +18,7 @@ header {
 nav {
     background-color: #cccccb;
     grid-column: 2 / 8;
-    height: 60px;
+    
 }
 
 .nav {
@@ -27,20 +27,29 @@ nav {
   padding: 0;
   margin: 0;
 }
-
+.nav ul {
+  display: flex;
+  align-items: center;
+}
 .nav li {
-  margin-right: 20px;
+  width: 100%;
 }
 
 .nav a {
   text-decoration: none;
   color: black;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 main {
-    background-color: rgba(0, 0, 255, 0.3);
+    background-color: white;
     grid-column: 2 / 6;
     height: 300px;
+    border: 1px solid black;
+    padding: 15px;
 }
 
 footer {
