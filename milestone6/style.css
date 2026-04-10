@@ -1,0 +1,124 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    gap: 10px;
+}
+
+/* Give each section a color so you can see it */
+
+header {
+   background-image: url(images/redrock.JPG);
+   background-position:50% 70%;
+   background-size: cover;
+   background-repeat: no-repeat;
+    grid-column: 2 / 8;
+    grid-row: 1 / 2;
+    height: 200px;
+}
+body {
+  background-image: url('images/redrock.JPG');
+}
+
+@media (max-width: 992px) {
+  body {
+    background-image: url('images/redrock.JPG');
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url('images/redrock.JPG');
+  }
+}
+
+
+nav {
+    background-color: #cccccb;
+    grid-column: 2 / 8;
+    grid-row: 2 / 3;
+    
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+.nav li {
+  width: 100%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.nav a:hover {
+  background-color: rgb(131, 39, 39);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    padding: 15px;
+  }
+}
+
+main {
+    background-color: white;
+    grid-column: 2 / 6;
+    grid-row: 3 / 4;
+    height: 300px;
+    border: 1px solid black;
+    padding: 15px;
+}
+.right-col {
+  grid-column: 6 /8 ;
+  grid-row: 3 / 4;
+}
+.right-col img {
+  width: 100%;
+}
+footer {
+    background-color: #353535;
+    grid-column: 2 / 8;
+    grid-row: 4 / 5;
+    height: 80px;
+}
+@media (max-width: 992px) {
+  .center-column {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    display: block; }
+    }
+    .center-column {
+    width: 100%;
+    }
+    .left-column, .right-column {
+    display: none;
+    }
